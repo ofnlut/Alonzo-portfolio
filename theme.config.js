@@ -6,7 +6,6 @@ export default {
     <footer>
       <small>
         <time>{YEAR}</time> Devin Mozee.
-        <a href="/feed.xml">RSS</a>
       </small>
       <a href="https://github.com/ofnlut"><GrGithub /></a>
       <a href="https://instagram.com/uhlonzo_"><GrInstagram /></a>
