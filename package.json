@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ofnlut.github.io",
+  "homepage": "https://mozee.xyz",
   "private": true,
   "scripts": {
     "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
