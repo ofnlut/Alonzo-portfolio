@@ -20,6 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <script src="https://cdn.tailwindcss.com"></script>
       </Head>
       <Component {...pageProps} />
     </>
