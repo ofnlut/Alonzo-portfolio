@@ -3,6 +3,7 @@ import { Video } from "./Video";
 
 // [title: Hello, youtubelink: link, image: image]
 const contentList = [
+    {title: "Versa Studio Visit (2023)", link:"https://www.youtube.com/embed/Mt6RBwXCm3U?si=Ky2Wgr1x1-VdwsZJ", thumbnail: "https://img.youtube.com/vi/Mt6RBwXCm3U/hqdefault.jpg"},
     {title: "Versa Reign hoodie Ad", link: "https://www.youtube.com/embed/Fwr5sR-0l38?si=d71su-RSpZWift3-", thumbnail: "https://img.youtube.com/vi/Fwr5sR-0l38/maxresdefault.jpg"},
     {title: "B.Pac - I Hope So", link: "https://www.youtube.com/embed/wGRfLtMUd7g?si=8fbS7YzYVsTqh4Rg", thumbnail: "https://img.youtube.com/vi/wGRfLtMUd7g/hqdefault.jpg"},
     {title: "Chris Chase - Ben Simmons", link: "https://www.youtube.com/embed/J9rppUM-oug?si=j1dQywtgGZCKpzf4", thumbnail:"https://img.youtube.com/vi/J9rppUM-oug/maxresdefault.jpg"},
