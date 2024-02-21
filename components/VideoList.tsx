@@ -15,8 +15,8 @@ const contentList = [
 export const VideoList = () => {
     return (
         <div className="grid grid-cols-2 gap-3">
-            {contentList.map(content => ( 
-                <Video title={content.title} link={content.link} thumbnail={content.thumbnail} />
+            {contentList.map((content, i ) => ( 
+                <Video title={content.title} link={content.link} thumbnail={content.thumbnail} id={i}/>
             ))}
         </div>
     )

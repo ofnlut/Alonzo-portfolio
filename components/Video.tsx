@@ -2,12 +2,13 @@ import React from "react";
 type VideoProps = {
     title: string,
     link: string,
-    thumbnail: string
+    thumbnail: string,
+    id: number
 }
 
-export const Video = ({title, link, thumbnail}: VideoProps) => {
+export const Video = ({title, link, thumbnail, id}: VideoProps) => {
     return (
-        <div>
+        <div key={id}>
             <a className="relative w-full h-full bg-gray-900 group" href={link}>
             <img className=" absolute inset-0 object-cover w-full h-full group-hover:opacity-50" src={thumbnail}/>
             <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
