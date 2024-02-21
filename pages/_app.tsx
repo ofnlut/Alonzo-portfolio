@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link href="/Alonzo-portfolio/styles/main.css" rel="stylesheet"/>
+        <link href="/styles/main.css" rel="stylesheet"/>
         <link
           rel="alternate"
           type="application/rss+xml"
