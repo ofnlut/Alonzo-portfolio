@@ -2,9 +2,9 @@
   "homepage": "https://mozee.xyz",
   "private": true,
   "scripts": {
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://mozee.xyz' > ./out/CNAME",
     "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
