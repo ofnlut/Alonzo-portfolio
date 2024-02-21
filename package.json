@@ -2,8 +2,7 @@
   "homepage": "https://ofnlut.github.io",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
     "dev": "next",
     "build": "node ./scripts/gen-rss.js && next build",
     "start": "next start"
